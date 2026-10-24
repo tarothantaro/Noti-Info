@@ -1,6 +1,6 @@
 # Noti-Info
 
-Public pages for Noti, the Android notification filter by RovanC, served by GitHub Pages:
+Public pages for Noti, the Android notification filter by TaroThanTaro, served by GitHub Pages:
 
 - <https://tarothantaro.github.io/Noti-Info/>: what Noti does
 - <https://tarothantaro.github.io/Noti-Info/privacy.html>: the privacy policy, linked from Google Play and
