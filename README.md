@@ -2,8 +2,8 @@
 
 Public pages for Noti, the Android notification filter by RovanC, served by GitHub Pages:
 
-- <https://rovanchung.github.io/Noti-Info/>: what Noti does
-- <https://rovanchung.github.io/Noti-Info/privacy.html>: the privacy policy, linked from Google Play and
+- <https://tarothantaro.github.io/Noti-Info/>: what Noti does
+- <https://tarothantaro.github.io/Noti-Info/privacy.html>: the privacy policy, linked from Google Play and
   from the app (Settings → Privacy)
 
 The privacy policy URL is in the app (`PRIVACY_POLICY_URL`) and in Play Console (App content → Privacy
