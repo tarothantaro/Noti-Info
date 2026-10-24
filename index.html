@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Noti</title>
+<meta name="description" content="Noti filters, blocks and logs your Android notifications. Everything stays on your device.">
+<link rel="icon" href="icon.png">
+<style>
+  :root { --bg: #fbf8ff; --fg: #1b1b21; --muted: #46464f; --accent: #3949ab; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #121318; --fg: #e4e1e9; --muted: #c6c5d0; --accent: #bac3ff; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; align-items: center; gap: 16px; }
+  header img { width: 72px; height: 72px; border-radius: 18px; }
+  h1 { font-size: 1.8rem; margin: 0; }
+  .by { color: var(--muted); margin: 0; }
+  h2 { font-size: 1.15rem; color: var(--accent); margin-top: 2rem; }
+  li { margin: 4px 0; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <img src="icon.png" alt="">
+  <div>
+    <h1>Noti</h1>
+    <p class="by">Notification filter for Android, by RovanC</p>
+  </div>
+</header>
+
+<p>Noti sits between your apps and your notification shade. Every notification passes through Noti first,
+and your filter decides what gets through.</p>
+
+<h2>What it does</h2>
+<ul>
+  <li><strong>Filter:</strong> show only the apps you list, or block the apps you list. Blocked notifications
+    leave the shade but stay in History.</li>
+  <li><strong>History:</strong> every notification is recorded, and tapping one opens it as if you had tapped
+    the original, even if it was blocked.</li>
+  <li><strong>Alerts:</strong> give the apps that matter their own sound and vibration.</li>
+  <li><strong>Noti Plus</strong> (one-time in-app purchase): matches filter and alert on the words in a
+    notification, such as blocking only an app's promotions or ringing only for “urgent”.</li>
+</ul>
+
+<h2>Privacy</h2>
+<p>Noti has no internet permission: your notifications are processed and stored only on your device and are
+never shared. No ads, no analytics, no account. Read the <a href="privacy.html">privacy policy</a>.</p>
+
+<h2>Contact</h2>
+<p><a href="mailto:rovanchung.tw@gmail.com">rovanchung.tw@gmail.com</a></p>
+</main>
+</body>
+</html>
